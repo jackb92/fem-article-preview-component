@@ -1,0 +1,148 @@
+body{
+    background-color: hsl(212, 23%, 69%);
+}
+
+p{
+    margin: 0px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.image-container{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left;
+}
+
+.drawers-image{    
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.copy-container{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    float: left;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.copy-section{
+    margin: 40px;
+}
+
+h1{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    color: slategray
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: darkgrey;
+}
+
+.bottom-section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.michelle-image{
+    border-radius: 100px;
+    height:50px;
+    width:50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.name{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    color: slategray
+}
+
+.date{
+    color: darkgrey;
+}
+
+.icon{
+    margin-left: auto;
+    padding-top: 8px;
+    margin-right: 40px;
+    font-size: 40px;
+}
+
+.arrow-icon{
+   color: slategray;
+   cursor: pointer;
+}
+
+.arrow-icon:hover {
+    color: black;
+
+  }
+
+button{
+    all: unset;
+}
+
+#myDIV{
+    background-color: hsl(214, 17%, 51%);
+    position: absolute;
+    width:200px;
+    height: 50px;
+    z-index: 9;
+    margin-top: -60px;
+    margin-left: 320px;
+    border-bottom: 5px solid hsl(214, 17%, 51%);
+    border-radius: 5px;
+}
+
+#myDIV:after{
+    content: '';
+    position: absolute;
+    left: 40px;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 55px solid hsl(214, 17%, 51%);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.icons{
+    float: left;
+    position: relative;
+    margin: 10px;
+    z-index: 10;
+    text-align: center;
+}
+
+.icon-container{
+    margin-top: 7px;
+    margin-left: 75px;
+}
+
+
+
