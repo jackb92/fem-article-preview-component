@@ -192,5 +192,19 @@ button{
       }
   }
 
+@media screen and (max-width: 990px){
+    #myDIV{
+      background-color: gray;
+    }
+}
+
+/* @media screen and (max-width: 990px){
+    #myDIV:after{
+      
+    }
+} */
+
+  
+
 
 
